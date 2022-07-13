@@ -21,3 +21,11 @@ var checkDead = setInterval(function() {
         document.getElementById("scoreSpan").innerHTML = Math.floor(counter/100);
     }
 }, 10);
+
+function normal() {
+    window.location.href = "https://tayframbz.github.io/Mario/";
+};
+
+function dificil() {
+    window.location.href = "https://tayframbz.github.io/foguete/";
+};
