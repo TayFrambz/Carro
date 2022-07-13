@@ -1,0 +1,139 @@
+*{
+    display: auto;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right bottom, #d870e6, #c79ed1);
+}
+
+.goBack {
+    width: 100px;
+    height: 30px;
+    margin-left: 600px;
+    border-radius: 5px;
+    background: white;
+}
+
+.goBack h2 {
+    color: #9a09ad;
+    background: none;
+    text-align: center;
+}
+
+.goBack h2:hover {
+    color: #d870e6;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 200px;
+    margin-top: -100px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 20px;
+}
+
+#levels {
+    background: rgba(255, 255, 255, 0);
+    width: 50px;
+} 
+
+#level1 {
+    margin-left: 500px;
+    margin-top: -100px;
+    background: url(assets/mario2.png) no-repeat center;
+    width: 50px;
+    height: 50px;
+}
+
+#level2 {
+    margin-left: 700px;
+    margin-top: -50px;
+    background: url(assets/foguete2.png) no-repeat center;
+    width: 50px;
+    height: 50px;
+}
+
+.levels p {
+    background: none;
+    margin-left: 100px;
+    margin: -50px;
+    color: #9a09ad;
+}
+
+.levels p:hover {
+    cursor: pointer;
+}
+
+.title {
+    background: none;
+    border-radius: 20px;
+    margin-left: 650px;
+    margin-top: 100px;
+    display: flex;
+    z-index: 2;
+}
+
+.title h1 {
+    color: #9a09ad;
+    background: none;
+    text-align: center;
+}
+
+.score {
+    display: relative;
+    margin-left: 600px;
+    margin-top: 100px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+}
+
+.game{
+    background: url(assets/backCarro3.jpg) no-repeat center;
+    display: relative;
+    width: 600px;
+    height: 220px;
+    border: 1px solid black;
+    margin: auto;
+    }
+
+#carro{
+    background: url(assets/carro3.png) no-repeat center;
+    width: 120px;
+    height: 100px;
+    position:relative;
+    top: 140px;
+    margin-left: 40px;
+}
+.animate{
+    animation: jump 0.8s linear;
+}
+@keyframes jump{
+    0%{top: 120px;}
+    30%{top: 60px;}
+    70%{top: 40px;}
+    100%{top: 120px;}
+}
+
+#idoso{
+    background: url(assets/pedestre3.png) no-repeat center;
+    width: 50px;
+    height: 60px;
+    position: relative;
+    top: 55px;
+    left: 550px;
+    animation: idoso 2s infinite linear;
+}
+@keyframes idoso{
+    0%{left: 600px}
+    100%{left: -20px}
+}
+
